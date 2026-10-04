@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&family=Noto+Sans+Georgian:wght@300;400;500;600&family=Noto+Serif+Georgian:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=22">
+<link rel="stylesheet" href="style.css?v=23">
 </head>
 <body>
 
@@ -168,10 +168,16 @@
     <p class="eyebrow" data-i18n="loc_eyebrow"></p>
     <h2 data-i18n="loc_title"></h2>
     <p class="sub" data-i18n="loc_sub"></p>
+    <p class="addr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.500C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg><span data-i18n="addr"></span></p>
   </div>
   <div class="map reveal">
     <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map"
-      src="https://www.google.com/maps?q=Makhinjauri,+Georgia&output=embed"></iframe>
+      src="https://www.google.com/maps?q=Tamar+Mepe+3rd+Ln+55,+Makhinjauri,+Georgia&z=17&output=embed"></iframe>
+  </div>
+  <div class="route-btns reveal">
+    <a class="btn btn-gold" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Tamar+Mepe+3rd+Ln+55,+Makhinjauri,+Georgia" data-i18n="route"></a>
+    <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://waze.com/ul?q=Tamar+Mepe+3rd+Ln+55,+Makhinjauri,+Georgia&navigate=yes">Waze</a>
+    <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Tamar+Mepe+3rd+Ln+55,+Makhinjauri,+Georgia" data-i18n="open_map"></a>
   </div>
 </section>
 
@@ -181,6 +187,7 @@
     <p class="eyebrow" data-i18n="c_eyebrow"></p>
     <h2 data-i18n="c_title"></h2>
     <p class="sub" data-i18n="c_sub"></p>
+    <p class="addr addr-c"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.500C19 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg><span data-i18n="addr"></span></p>
     <div class="contact-btns">
       <a class="btn btn-gold call-link"><span data-i18n="call"></span> <small class="phone-txt"></small></a>
       <a class="btn btn-wa wa-link" target="_blank" rel="noopener">WhatsApp</a>
@@ -192,7 +199,7 @@
 <footer>
   <span>© <span id="year"></span> Villa Sea Side</span>
   <span class="socials"><a class="soc ig-link" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg></a><a class="soc fb-link" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.600c0-.9.3-1.500 1.600-1.500h1.500V4.400c-.3 0-1.200-.1-2.200-.1-2.300 0-3.900 1.400-3.900 4v2.200H7.900v3h2.600V21z"/></svg></a></span>
-  <span data-i18n="foot"></span>
+  <span data-i18n="addr"></span>
 </footer>
 
 <!-- floating contact buttons -->
@@ -213,6 +220,6 @@
   <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
 </div>
 
-<script src="script.js?v=22"></script>
+<script src="script.js?v=23"></script>
 </body>
 </html>

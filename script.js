@@ -12,6 +12,7 @@ const CONFIG = {
 
 const T = {
   ru: {
+    addr:'Махинджаури, 3-й пер. Тамар Мепе, 55', route:'Построить маршрут', open_map:'Открыть в картах',
     k_l1:'Газовая плита с духовкой', k_l2:'Посудомоечная машина', k_l3:'Холодильник и морозильная камера', k_l4:'Чайник, посуда и всё для готовки',
     nav_glamp:'Глэмпинги', gl_eyebrow:'Во дворе', gl_title:'Два А-образных глэмпинга', gl_sub:'Деревянные домики с мансардой, отдельным санузлом, мини-кухней и костровой зоной во дворе — для тех, кто хочет отдыха поуютнее и поближе к природе.',
     gl_f1:'Дерево и мансарда', gl_f2:'Мини-кухня', gl_f3:'ТВ и кондиционер', gl_f4:'Вид на море из окна', gl_f5:'Костровая зона во дворе',
@@ -45,6 +46,7 @@ const T = {
     guest:n=>n+(n==1?' гость':n<5?' гостя':' гостей'),
   },
   en: {
+    addr:'55 Tamar Mepe 3rd Lane, Makhinjauri, Georgia', route:'Get directions', open_map:'Open in Maps',
     k_l1:'Gas hob with oven', k_l2:'Dishwasher', k_l3:'Fridge and chest freezer', k_l4:'Kettle, tableware and cooking essentials',
     nav_glamp:'Glamping', gl_eyebrow:'In the garden', gl_title:'Two A-frame glamping cabins', gl_sub:'Wooden cabins with an attic bedroom, a private bathroom, a mini kitchen and a fire pit in the garden — for a cozier stay close to nature.',
     gl_f1:'Wood and attic bedroom', gl_f2:'Mini kitchen', gl_f3:'TV and air conditioning', gl_f4:'Sea view from the window', gl_f5:'Fire pit in the garden',
@@ -78,6 +80,7 @@ const T = {
     guest:n=>n+(n==1?' guest':' guests'),
   },
   ka: {
+    addr:'მახინჯაური, თამარ მეფის მე-3 შესახვევი, 55', route:'მარშრუტის აგება', open_map:'რუკაზე გახსნა',
     k_l1:'გაზქურა ღუმელით', k_l2:'ჭურჭლის სარეცხი მანქანა', k_l3:'მაცივარი და საყინულე', k_l4:'ჩაიდანი, ჭურჭელი და მზადებისთვის საჭირო ყველაფერი',
     nav_glamp:'გლემპინგი', gl_eyebrow:'ეზოში', gl_title:'ორი A-ფორმის გლემპინგი', gl_sub:'ხის სახლები მანსარდით, ცალკე სააბაზანოთი, მინი-სამზარეულოთი და კოცონის ზონით ეზოში — უფრო მყუდრო დასვენებისთვის ბუნებასთან ახლოს.',
     gl_f1:'ხე და მანსარდა', gl_f2:'მინი-სამზარეულო', gl_f3:'ტელევიზორი და კონდიციონერი', gl_f4:'ზღვის ხედი ფანჯრიდან', gl_f5:'კოცონის ზონა ეზოში',

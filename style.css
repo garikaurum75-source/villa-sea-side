@@ -247,3 +247,9 @@ h1,.lead,.hero .eyebrow{text-shadow:0 2px 18px rgba(0,0,0,.55)}
 @media(max-width:700px){
   .booking{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:1rem;gap:.7rem}
 }
+
+/* ---- v23: address and route buttons ---- */
+.addr{display:inline-flex;align-items:center;gap:.5rem;margin-top:1.2rem;color:var(--gold);font-size:1.02rem;font-weight:400}
+.addr svg{flex:none}
+.addr-c{display:flex;justify-content:center;margin:0 0 1.6rem}
+.route-btns{display:flex;flex-wrap:wrap;gap:.8rem;justify-content:center;margin-top:1.4rem}
