@@ -226,3 +226,11 @@ h1,.lead,.hero .eyebrow{text-shadow:0 2px 18px rgba(0,0,0,.55)}
   .hero-shade{background:linear-gradient(0deg,rgba(8,14,12,.9) 0%,rgba(8,14,12,.55) 38%,rgba(8,14,12,.0) 70%),linear-gradient(180deg,rgba(8,14,12,.55) 0%,rgba(8,14,12,0) 22%)}
   .hero-bg img{object-position:center 30%}
 }
+
+/* ---- v21: readability over the photo ---- */
+.hero .btn-ghost{background:rgba(10,18,16,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:#f3dca3;border-color:var(--gold)}
+.hero .btn-ghost:hover{background:var(--gold);color:#1a1408}
+.lead{color:#f1efe6}
+@media(max-width:700px){
+  .hero-shade{background:linear-gradient(0deg,rgba(8,14,12,.92) 0%,rgba(8,14,12,.72) 40%,rgba(8,14,12,.5) 62%,rgba(8,14,12,.22) 82%,rgba(8,14,12,.45) 100%)}
+}
