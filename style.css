@@ -234,3 +234,16 @@ h1,.lead,.hero .eyebrow{text-shadow:0 2px 18px rgba(0,0,0,.55)}
 @media(max-width:700px){
   .hero-shade{background:linear-gradient(0deg,rgba(8,14,12,.92) 0%,rgba(8,14,12,.72) 40%,rgba(8,14,12,.5) 62%,rgba(8,14,12,.22) 82%,rgba(8,14,12,.45) 100%)}
 }
+
+/* ---- v22: booking form fits on narrow phones, glass hero buttons ---- */
+.booking{box-sizing:border-box}
+.booking label{min-width:0}
+.booking input,.booking select{width:100%;min-width:0;max-width:100%;box-sizing:border-box;min-height:46px;-webkit-appearance:none;appearance:none}
+.booking select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23d6b26e' stroke-width='1.6'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .9rem center;padding-right:2rem}
+.hero .btn-gold{background:rgba(214,178,110,.32);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#fff7e0;border:1px solid var(--gold);text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.hero .btn-gold:hover{background:rgba(214,178,110,.6);box-shadow:0 10px 30px -8px rgba(214,178,110,.6)}
+.hero .btn-ghost{background:rgba(10,18,16,.35);color:#fff7e0}
+.hero .booking .btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1408;border:0;text-shadow:none;backdrop-filter:none}
+@media(max-width:700px){
+  .booking{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:1rem;gap:.7rem}
+}
