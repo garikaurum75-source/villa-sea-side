@@ -14,9 +14,9 @@ const T = {
   ru: {
     addr:'Махинджаури, 3-й пер. Тамар Мепе, 55', route:'Построить маршрут в Яндекс Картах',
     k_l1:'Газовая плита с духовкой', k_l2:'Посудомоечная машина', k_l3:'Холодильник и морозильная камера', k_l4:'Чайник, посуда и всё для готовки',
-    nav_glamp:'Глэмпинги', gl_eyebrow:'Во дворе', gl_title:'Два А-образных глэмпинга', gl_sub:'Деревянные домики с мансардой, отдельным санузлом, мини-кухней и костровой зоной во дворе — для тех, кто хочет отдыха поуютнее и поближе к природе.',
-    gl_f1:'Дерево и мансарда', gl_f2:'Мини-кухня', gl_f3:'ТВ и кондиционер', gl_f4:'Вид на море из окна', gl_f5:'Костровая зона во дворе',
-    gl:'Глэмпинг', gl_d:'Уютный деревянный А-образный домик: спальное место в мансарде, зона отдыха с диваном, мини-кухня и выход во двор к костровой зоне.',
+    nav_glamp:'Глэмпинги', gl_eyebrow:'Во дворе', gl_title:'Два А-образных глэмпинга', gl_sub:'Деревянные домики со вторым этажом-спальней, отдельным санузлом, мини-кухней и костровой зоной во дворе — для тех, кто хочет отдыха поуютнее и поближе к природе.',
+    gl_f1:'Дерево и второй этаж со спальней', gl_f2:'Мини-кухня', gl_f3:'ТВ и кондиционер', gl_f4:'Вид на море из окна', gl_f5:'Костровая зона во дворе',
+    gl:'Глэмпинг', gl_d:'Уютный деревянный А-образный домик: спальня на втором этаже, зона отдыха с диваном, мини-кухня и выход во двор к костровой зоне.',
     f_sea_v:'700 м', f_sea:'до моря', f_wifi:'Wi-Fi', f_parking:'парковка',
     inroom:'В каждом номере', am_bath:'Свой санузел', am_tv:'Телевизор', am_fridge:'Холодильник', am_ac:'Кондиционер',
     nav_rooms:'Номера', nav_pool:'Бассейн', nav_house:'Дом', nav_gallery:'Галерея', nav_location:'Локация', nav_contact:'Контакты',
@@ -48,9 +48,9 @@ const T = {
   en: {
     addr:'55 Tamar Mepe 3rd Lane, Makhinjauri, Georgia', route:'Get directions in Yandex Maps',
     k_l1:'Gas hob with oven', k_l2:'Dishwasher', k_l3:'Fridge and chest freezer', k_l4:'Kettle, tableware and cooking essentials',
-    nav_glamp:'Glamping', gl_eyebrow:'In the garden', gl_title:'Two A-frame glamping cabins', gl_sub:'Wooden cabins with an attic bedroom, a private bathroom, a mini kitchen and a fire pit in the garden — for a cozier stay close to nature.',
-    gl_f1:'Wood and attic bedroom', gl_f2:'Mini kitchen', gl_f3:'TV and air conditioning', gl_f4:'Sea view from the window', gl_f5:'Fire pit in the garden',
-    gl:'Glamping', gl_d:'A cozy wooden A-frame cabin: a bed in the attic, a lounge area with a sofa, a mini kitchen and a door to the garden and fire pit.',
+    nav_glamp:'Glamping', gl_eyebrow:'In the garden', gl_title:'Two A-frame glamping cabins', gl_sub:'Wooden cabins with a bedroom on the second floor, a private bathroom, a mini kitchen and a fire pit in the garden — for a cozier stay close to nature.',
+    gl_f1:'Wood and a second-floor bedroom', gl_f2:'Mini kitchen', gl_f3:'TV and air conditioning', gl_f4:'Sea view from the window', gl_f5:'Fire pit in the garden',
+    gl:'Glamping', gl_d:'A cozy wooden A-frame cabin: a bedroom on the second floor, a lounge area with a sofa, a mini kitchen and a door to the garden and fire pit.',
     f_sea_v:'700 m', f_sea:'to the sea', f_wifi:'Wi-Fi', f_parking:'parking',
     inroom:'In every room', am_bath:'Private bathroom', am_tv:'TV', am_fridge:'Fridge', am_ac:'Air conditioning',
     nav_rooms:'Rooms', nav_pool:'Pool', nav_house:'House', nav_gallery:'Gallery', nav_location:'Location', nav_contact:'Contact',
@@ -82,9 +82,9 @@ const T = {
   ka: {
     addr:'მახინჯაური, თამარ მეფის მე-3 შესახვევი, 55', route:'მარშრუტი Yandex Maps-ში',
     k_l1:'გაზქურა ღუმელით', k_l2:'ჭურჭლის სარეცხი მანქანა', k_l3:'მაცივარი და საყინულე', k_l4:'ჩაიდანი, ჭურჭელი და მზადებისთვის საჭირო ყველაფერი',
-    nav_glamp:'გლემპინგი', gl_eyebrow:'ეზოში', gl_title:'ორი A-ფორმის გლემპინგი', gl_sub:'ხის სახლები მანსარდით, ცალკე სააბაზანოთი, მინი-სამზარეულოთი და კოცონის ზონით ეზოში — უფრო მყუდრო დასვენებისთვის ბუნებასთან ახლოს.',
-    gl_f1:'ხე და მანსარდა', gl_f2:'მინი-სამზარეულო', gl_f3:'ტელევიზორი და კონდიციონერი', gl_f4:'ზღვის ხედი ფანჯრიდან', gl_f5:'კოცონის ზონა ეზოში',
-    gl:'გლემპინგი', gl_d:'მყუდრო ხის A-ფორმის სახლი: საძინებელი მანსარდაში, დივნიანი სასტუმრო ზონა, მინი-სამზარეულო და გასასვლელი ეზოში, კოცონის ზონისკენ.',
+    nav_glamp:'გლემპინგი', gl_eyebrow:'ეზოში', gl_title:'ორი A-ფორმის გლემპინგი', gl_sub:'ხის სახლები მეორე სართულზე საძინებლით, ცალკე სააბაზანოთი, მინი-სამზარეულოთი და კოცონის ზონით ეზოში — უფრო მყუდრო დასვენებისთვის ბუნებასთან ახლოს.',
+    gl_f1:'ხე და მეორე სართულზე საძინებელი', gl_f2:'მინი-სამზარეულო', gl_f3:'ტელევიზორი და კონდიციონერი', gl_f4:'ზღვის ხედი ფანჯრიდან', gl_f5:'კოცონის ზონა ეზოში',
+    gl:'გლემპინგი', gl_d:'მყუდრო ხის A-ფორმის სახლი: საძინებელი მეორე სართულზე, დივნიანი სასტუმრო ზონა, მინი-სამზარეულო და გასასვლელი ეზოში, კოცონის ზონისკენ.',
     f_sea_v:'700 მ', f_sea:'ზღვამდე', f_wifi:'Wi-Fi', f_parking:'პარკინგი',
     inroom:'თითოეულ ნომერში', am_bath:'საკუთარი სააბაზანო', am_tv:'ტელევიზორი', am_fridge:'მაცივარი', am_ac:'კონდიციონერი',
     nav_rooms:'ნომრები', nav_pool:'აუზი', nav_house:'სახლი', nav_gallery:'გალერეა', nav_location:'მდებარეობა', nav_contact:'კონტაქტი',
@@ -137,7 +137,7 @@ const ROOMS = [1,2,3,4,5,6];
 function renderRooms(){
   const t = T[lang];
   $('#roomsGrid').innerHTML = ROOMS.map(n=>{
-    const ground = n===1;
+    const ground = n===2;
     return `<article class="room reveal in">
       <div class="ph" data-photo="photos/room-${n}.jpg">
         <span class="tag">${ground?t.floor1_tag:t.floor2_tag}</span>
