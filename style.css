@@ -253,3 +253,7 @@ h1,.lead,.hero .eyebrow{text-shadow:0 2px 18px rgba(0,0,0,.55)}
 .addr svg{flex:none}
 .addr-c{display:flex;justify-content:center;margin:0 0 1.6rem}
 .route-btns{display:flex;flex-wrap:wrap;gap:.8rem;justify-content:center;margin-top:1.4rem}
+
+/* ---- v28: lounge grid ---- */
+.lg-grid .ph:nth-child(2){grid-column:span 2}
+@media(max-width:700px){.lg-grid .ph:nth-child(2){grid-column:span 2}.lg-grid .ph:first-child{grid-column:span 2}}

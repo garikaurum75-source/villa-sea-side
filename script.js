@@ -12,6 +12,7 @@ const CONFIG = {
 
 const T = {
   ru: {
+    lounge_eyebrow:'Для всех гостей', lounge_title:'Общая гостиная', lounge_sub:'Просторная гостиная с диванами, обеденной зоной и панорамными окнами с видом на бассейн.',
     addr:'Махинджаури, 3-й пер. Тамар Мепе, 55', route:'Построить маршрут в Яндекс Картах',
     k_l1:'Газовая плита с духовкой', k_l2:'Посудомоечная машина', k_l3:'Холодильник и морозильная камера', k_l4:'Чайник, посуда и всё для готовки',
     nav_glamp:'Глэмпинги', gl_eyebrow:'Во дворе', gl_title:'Два А-образных глэмпинга', gl_sub:'Деревянные домики со вторым этажом-спальней, отдельным санузлом, мини-кухней и костровой зоной во дворе — для тех, кто хочет отдыха поуютнее и поближе к природе.',
@@ -46,6 +47,7 @@ const T = {
     guest:n=>n+(n==1?' гость':n<5?' гостя':' гостей'),
   },
   en: {
+    lounge_eyebrow:'For all guests', lounge_title:'Shared lounge', lounge_sub:'A spacious lounge with sofas, a dining area and panoramic windows overlooking the pool.',
     addr:'55 Tamar Mepe 3rd Lane, Makhinjauri, Georgia', route:'Get directions in Yandex Maps',
     k_l1:'Gas hob with oven', k_l2:'Dishwasher', k_l3:'Fridge and chest freezer', k_l4:'Kettle, tableware and cooking essentials',
     nav_glamp:'Glamping', gl_eyebrow:'In the garden', gl_title:'Two A-frame glamping cabins', gl_sub:'Wooden cabins with a bedroom on the second floor, a private bathroom, a mini kitchen and a fire pit in the garden — for a cozier stay close to nature.',
@@ -80,6 +82,7 @@ const T = {
     guest:n=>n+(n==1?' guest':' guests'),
   },
   ka: {
+    lounge_eyebrow:'ყველა სტუმრისთვის', lounge_title:'საერთო მისაღები ოთახი', lounge_sub:'ფართო მისაღები დივნებით, სასადილო ზონით და პანორამული ფანჯრებით აუზის ხედით.',
     addr:'მახინჯაური, თამარ მეფის მე-3 შესახვევი, 55', route:'მარშრუტი Yandex Maps-ში',
     k_l1:'გაზქურა ღუმელით', k_l2:'ჭურჭლის სარეცხი მანქანა', k_l3:'მაცივარი და საყინულე', k_l4:'ჩაიდანი, ჭურჭელი და მზადებისთვის საჭირო ყველაფერი',
     nav_glamp:'გლემპინგი', gl_eyebrow:'ეზოში', gl_title:'ორი A-ფორმის გლემპინგი', gl_sub:'ხის სახლები მეორე სართულზე საძინებლით, ცალკე სააბაზანოთი, მინი-სამზარეულოთი და კოცონის ზონით ეზოში — უფრო მყუდრო დასვენებისთვის ბუნებასთან ახლოს.',
@@ -137,7 +140,7 @@ const ROOMS = [1,2,3,4,5,6];
 function renderRooms(){
   const t = T[lang];
   $('#roomsGrid').innerHTML = ROOMS.map(n=>{
-    const ground = n===2;
+    const ground = n===1;
     return `<article class="room reveal in">
       <div class="ph" data-photo="photos/room-${n}.jpg">
         <span class="tag">${ground?t.floor1_tag:t.floor2_tag}</span>
