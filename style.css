@@ -210,3 +210,19 @@ footer .socials{margin:0}
 .soc svg{width:21px;height:21px}
 .soc:hover{background:var(--gold);color:#1a1408;transform:translateY(-2px)}
 footer .soc{width:36px;height:36px}
+
+/* ---- v20: lighter hero, glass booking, green pulsing buttons ---- */
+.hero-shade{background:linear-gradient(90deg,rgba(8,14,12,.62) 0%,rgba(8,14,12,.18) 55%,rgba(8,14,12,0)),linear-gradient(0deg,var(--bg) 0%,rgba(11,18,16,.0) 28%)}
+.hero-bg img{object-position:center 40%}
+h1,.lead,.hero .eyebrow{text-shadow:0 2px 18px rgba(0,0,0,.55)}
+.booking{background:rgba(10,18,16,.22);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);border-color:rgba(214,178,110,.35)}
+.booking input,.booking select{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.22)}
+.fab-wa,.fab-call{background:linear-gradient(135deg,#2fd06f,#18a24e);color:#fff;animation:pulseG 1.9s infinite}
+.fab-call{animation-delay:.6s}
+.fab-btn{width:58px;height:58px}
+.fab-btn svg{width:28px;height:28px}
+@keyframes pulseG{0%{box-shadow:0 0 0 0 rgba(47,208,111,.7),0 10px 26px -6px rgba(0,0,0,.7);transform:scale(1)}50%{transform:scale(1.07)}70%{box-shadow:0 0 0 20px rgba(47,208,111,0),0 10px 26px -6px rgba(0,0,0,.7)}100%{box-shadow:0 0 0 0 rgba(47,208,111,0),0 10px 26px -6px rgba(0,0,0,.7);transform:scale(1)}}
+@media(max-width:700px){
+  .hero-shade{background:linear-gradient(0deg,rgba(8,14,12,.9) 0%,rgba(8,14,12,.55) 38%,rgba(8,14,12,.0) 70%),linear-gradient(180deg,rgba(8,14,12,.55) 0%,rgba(8,14,12,0) 22%)}
+  .hero-bg img{object-position:center 30%}
+}

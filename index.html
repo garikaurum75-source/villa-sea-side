@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&family=Noto+Sans+Georgian:wght@300;400;500;600&family=Noto+Serif+Georgian:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20">
 </head>
 <body>
 
@@ -45,7 +45,7 @@
 
 <!-- HERO -->
 <section class="hero" id="top">
-  <div class="ph hero-bg"><img src="photos/hero.jpg" alt="" onerror="this.remove()"></div>
+  <div class="ph hero-bg"><picture><source media="(max-width:700px)" srcset="photos/hero-mobile.jpg"><img src="photos/hero.jpg" alt="" onerror="this.remove()"></picture></div>
   <div class="hero-shade"></div>
   <div class="hero-inner">
     <p class="eyebrow" data-i18n="hero_eyebrow"></p>
@@ -213,6 +213,6 @@
   <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
 </div>
 
-<script src="script.js"></script>
+<script src="script.js?v=20"></script>
 </body>
 </html>
